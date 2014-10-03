@@ -5,11 +5,13 @@
   <title>Team's Gitter</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:700,900' rel='stylesheet' type='text/css'>
 </head>
 <body class="bkg-img">
   <script type="text/x-handlebars">
-    <h1 class="gitter-heading">Group Gitter Profiles</h1>
+
     <ul class="list-style profile">
+    <h1 class="gitter-heading">Group Gitter Profiles</h1>
       {{#each model}}
         {{render "gitter" this}}
       {{/each}}
@@ -20,7 +22,7 @@
     <li>
       <p class="profile__copy">
         <img class="profile__pic" {{bindAttr src="picture"}}>
-        <b>{{name}}'s Gitter: {{gitterName}}</b>
+        <b>{{name}}: {{gitterName}}</b>
       </p>
     </li>
   </script>
