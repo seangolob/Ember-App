@@ -1,0 +1,22 @@
+.bkg-img {
+  background-color: #dcdcdc;
+  padding: 5rem;
+}
+
+.profile {
+  height: 14rem;
+  width: 21rem;
+  background-color: white;
+  padding-top: 1rem;
+
+}
+
+.profile__pic {
+  border-radius: 5px;
+  width: 3rem;
+}
+
+.list-style {
+  list-style: none;
+
+}
